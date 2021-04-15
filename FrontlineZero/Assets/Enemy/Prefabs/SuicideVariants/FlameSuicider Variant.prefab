@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3520937477301295558
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 155535199475792259, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a4599f24f313f04b8ad7745b0fe6cbe, type: 2}
+    - target: {fileID: 2285446771717653731, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a4599f24f313f04b8ad7745b0fe6cbe, type: 2}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 109.433
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 55.151485
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 132.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225687, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: shrapnelCount
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225687, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: shrapnelPrefab
+      value: 
+      objectReference: {fileID: 3891597578035415270, guid: f64dca149ed3c56458c54671e4e4b8b9,
+        type: 3}
+    - target: {fileID: 4014521712193225687, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: shrapnelSpread
+      value: 0.762
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225687, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: shrapnelSpawnRadius
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225689, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: unitDamage
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225689, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: physicExplosionRadius
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225689, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: physicExplosionUpforce
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225689, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: physicExplosionStrength
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225689, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: exSpheres.Array.data[0].radius
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225689, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: exSpheres.Array.data[0].strength
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225691, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_Name
+      value: FlameSuicider Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225691, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859323997938041210, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a4599f24f313f04b8ad7745b0fe6cbe, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 78cb154be7b24d64dbeb94a0951c657f, type: 3}

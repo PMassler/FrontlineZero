@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UnlitMCSimulationMatBlackBG
+  m_Shader: {fileID: -6465566751694194690, guid: c954ec967343e2e41812fad52bd545f8,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_2432FD41:
+        m_Texture: {fileID: 2800000, guid: f0425cd6292589a41b5fc2c9b3d2860d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_3891094E: 10
+    - Vector1_4789102E: 1
+    - Vector1_49E564F5: 113.34
+    - Vector1_5C0F08ED: 0.11
+    - Vector1_5C1FC082: 0.376
+    - Vector1_673DF5AD: 0.101
+    - Vector1_6960242D: 1
+    - Vector1_74363A4A: 1
+    - Vector1_CF7F7A09: 1
+    - Vector1_DA4B4C: 0.38
+    - Vector1_FCE923AC: 1
+    m_Colors:
+    - Color_67542814: {r: 0.41037738, g: 0.75753814, b: 1, a: 0}
+    - Color_DE8C19BE: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

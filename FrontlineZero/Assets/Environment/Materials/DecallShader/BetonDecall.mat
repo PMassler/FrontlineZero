@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BetonDecall
+  m_Shader: {fileID: -6465566751694194690, guid: e6c28f5781b402949ae23cbced64a620,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_8263D36:
+        m_Texture: {fileID: 2800000, guid: d0c51e8101502554bb8ebfb4888835fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_C0DF03F9:
+        m_Texture: {fileID: 2800000, guid: 3376a094b9b624940b8b731b6797cbc5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_2C1D39AC: 0.086
+    - Vector1_44BDCBBF: 0.113
+    - Vector1_4BAFA7ED: 28.45
+    - Vector1_4DCDCB30: 0.071
+    - Vector1_88BEDE4D: 0.553
+    - Vector1_89A2FB54: 0
+    - Vector1_FF8EDBD0: 0
+    m_Colors:
+    - Color_4633ED58: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 0}
+    - Color_494F724F: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 0}
+    - Color_72615821: {r: 1, g: 1, b: 1, a: 0}
+    - Vector2_5A07D106: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_78FA4DAF: {r: 40, g: 20, b: 0, a: 0}
+    - Vector2_9318DD36: {r: 1.06, g: 1, b: 0, a: 0}
+    - Vector2_98513CC7: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_C0617D83: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_CEBCE12: {r: 3, g: 3, b: 0, a: 0}
+  m_BuildTextureStacks: []

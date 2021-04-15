@@ -1,0 +1,27 @@
+﻿#pragma kernel SphereModification
+
+static const int numThreads = 9;
+
+RWStructuredBuffer<float4> points;
+
+float radius;
+float smoothness;
+float3 position;
+float strength;
+int pointRowCount;
+int maxValue;
+
+
+
+[numthreads(numThreads, numThreads, numThreads)]
+void SphereModification(int3 id : SV_DispatchThreadID)
+{
+	
+		int index = (id.z) * (pointRowCount) * (pointRowCount)+(id.y) * (pointRowCount)+(id.x);
+		if (length(((points[index].xyz - position) * (points[index].xyz - position)) / (points[index].xyz - position)) < radius) 
+		{
+		 float temp = clamp(points[index].w + strength,0,maxValue);
+		 points[index].w = temp;
+		}
+	
+}

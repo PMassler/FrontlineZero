@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6694031461572861440
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 109.433
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 55.151485
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 132.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225686, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225687, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: shrapnelCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225687, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: shrapnelPrefab
+      value: 
+      objectReference: {fileID: 1032224995926740424, guid: 2512a4eb0b670b74d81ccf378af550ef,
+        type: 3}
+    - target: {fileID: 4014521712193225687, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: shrapnelSpread
+      value: 0.876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225687, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: shrapnelSpawnRadius
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225689, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: unitDamage
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225689, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: physicExplosionRadius
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225689, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: physicExplosionStrength
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225689, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: exSpheres.Array.data[0].radius
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225691, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_Name
+      value: BombSuicider Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4014521712193225691, guid: 78cb154be7b24d64dbeb94a0951c657f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 78cb154be7b24d64dbeb94a0951c657f, type: 3}
